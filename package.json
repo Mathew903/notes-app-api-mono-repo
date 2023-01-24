@@ -1,0 +1,19 @@
+{
+	"name": "create-api",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"app",
+		"api"
+	],
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npm run build --workspace=app",
+		"start": "npm start --workspace=api",
+		"dev:api": "npm run build && npm run dev --workspace=api"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

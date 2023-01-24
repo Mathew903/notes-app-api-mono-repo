@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTdiYzM4Y2Y3YjgzZGFlYWE4NWYxZSIsInVzZXJuYW1lIjoiTWF0aGV3YWd1cyIsImlhdCI6MTY3MjA5MTYyOH0.Tpeb_IZmzOMaYJBy8z_DMxVSyT565p0jD_75EG0QZ-w 
+
+{
+    "content": "hola, soy una nueva nota para vossssss jijijjiaszxcdxczxd",
+    "important": false
+}

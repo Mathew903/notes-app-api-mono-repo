@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	gap: 0 0.5rem;
+}
+
+form input,
+form button {
+	align-self: flex-start;
+	padding: 0.2rem;
+}
+
+.container {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 2rem;
+	justify-content: center;
+	margin: 1.5rem auto;
+}
+
+.container-notes {
+	width: 450px;
+	height: 200px;
+	background-color: #dddd;
+	border-radius: 4px;
+	margin-bottom: 1.5rem;
+}
+
+.container h1 {
+	width: 100%;
+	font-weight: 600;
+	margin-left: 2em;
+	color: rgb(88, 194, 121);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 0.2rem;
+}
+
+.notes {
+	margin: 20px;
+}
+
+.notes h2 {
+	color: rgb(34, 149, 225);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.6rem;
+}
